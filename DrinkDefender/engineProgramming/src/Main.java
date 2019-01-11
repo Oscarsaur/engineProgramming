@@ -1,4 +1,4 @@
-import dRink.PcLauncher;
+import dRink.DDLauncher;
 import processing.core.PApplet;
 
 public class Main extends PApplet {
@@ -6,10 +6,10 @@ public class Main extends PApplet {
 	public static void main(String[] args) {
 		PApplet.main("Main");
 	}
-	PcLauncher launcher;
+	DDLauncher launcher;
 	public void setup() {
 		background(0);
-		launcher = new PcLauncher(this);
+		launcher = new DDLauncher(this);
 		launcher.StartGame();
 
 	}
